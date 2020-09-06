@@ -1,7 +1,7 @@
-export  interface Task {
+export interface Task {
     id: string;
     title: string;
-    des: string;
+    descrption: string;
     status: TaskStatus;
 }
 export enum TaskStatus {
